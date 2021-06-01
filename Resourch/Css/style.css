@@ -1,0 +1,301 @@
+/*========================*/
+/*Basic Setup*/ 
+/*========================*/
+
+/*$body-bg:#333;
+$font-color:#fff;
+$primary-color:#008ed6;
+$icon-font-size: 30px;
+$icon-size: 50px;
+$dark-overlay: rgba(0,0,0,0.7);*/
+
+body{
+    
+}
+
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+html{
+    /*font-size: 62.5%;*/
+}
+
+/*body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: powderblue;
+    text-rendering: optimizeLegibility;
+    line-height: 1.3;
+}
+*/
+
+.navbar{
+    background: #000;
+}
+
+.navbar .nav-item{
+    padding-left: 1em;
+}
+
+.navbar .nav-item .nav-link{
+    text-transform: uppercase;
+}
+
+
+/*carousel*/
+.carousel-item{
+    
+}
+
+.carousel-img-1{
+    background: url('img/bg2.jpeg');
+    background-size: cover;
+    height: 75vh;
+    background-position: center center;
+}
+
+.carousel-img-2{
+    background: url('img/img1.jpg');
+    background-size: cover;
+    height: 75vh;
+    background-position: center center;
+}
+
+.carousel-img-3{
+    background: url('img/img3.jpg');
+    background-size: cover;
+    height: 75vh;
+    background-position: center center;
+}
+
+
+/*Home_Icon*/
+#homeicon .fa{
+    font-size: 50px;
+}
+
+
+#getstarted{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/bg1.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+#homeinfo img{
+    border-radius: 5px;
+}
+
+.lead-h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+
+#home-video{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(img/bg2.jpeg);
+    background-position: center center;
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+#home-video .fas{
+    font-size: 50px;
+}
+
+
+#gallery img{
+    min-height: ;
+}
+
+
+#newsletter h2{
+    color: white;
+}
+
+
+#copyright{
+    background: #000;
+    color: white;
+}
+
+
+
+
+/*About_Us_Page =====================================*/
+
+#about-page-header{
+    background: url(img/img8.jpg);
+    background-size: cover;
+    height: 220px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+#about-info img{
+    width: 350px;
+    height: 350px;
+}
+
+
+
+#icon-boxes .fas,
+#icon-boxes .fab{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before{
+    color: #000;
+}
+
+
+
+/*Services_Page=====================================*/
+
+#services-page-header{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url(img/img7a.jpg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+    height: 220px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/*Blog_Page===================================*/
+#blog-page-header{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), url(img/img6.jpg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+    height: 220px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/*Contact_Us=====================================*/
+#contact-us-header{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(img/img9a.jpg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+    height: 220px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px){
+    .nav-item{
+        padding-left: 0 !important;
+    }
+    
+    html{
+        font-size: 96%;
+    }
+    
+    #gallery img{
+        margin: 2px 0 2px 0;
+    }
+    
+}
+
+
+
+
+
+@media(max-width: 480px){
+    .carousel h2{
+        font-size: 2.6rem;
+    }
+    
+    html{
+        font-size: 90%;
+    }
+    
+    
+    .carousel-img-1{
+        height: 65vh;
+    }
+
+    .carousel-img-2{
+            height: 65vh;
+        }
+
+    .carousel-img-3{
+            height: 65vh;
+        }
+
+    
+}
+
+
+
+
+
+@media(max-width: 320px){
+    
+    html{
+        font-size: 75%;
+    }
+    
+    #gallery img{
+        min-height: auto;
+    }
+    
+    .carousel-img-1{
+        height: 60vh;
+    }
+
+    .carousel-img-2{
+            height: 60vh;
+        }
+
+    .carousel-img-3{
+            height: 60vh;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
